@@ -1,0 +1,9 @@
+<h2> Contacts </h2>
+<div *ngIf="contacts">
+  <div *ngFor = "let cont of contacts"  >
+    <label>First Name - </label><label>{{cont.fname}}</label>
+    <label>Last Name - </label><label>{{cont.lname}}</label>
+    <label>Contact #</label><label>{{cont.contact}}</label>
+    <button>Edit</button>
+  </div>
+</div> 
